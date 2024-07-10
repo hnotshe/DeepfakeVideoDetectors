@@ -1,1 +1,4 @@
 # DeepfakeVideoDectectors
+This repository contains the code for our CS231N final project at Stanford University, focused on detecting deepfake videos using various deep learning models. We explored multiple architectures, including Baseline 2D CNNs, Two-Stream CNNs, CNN-RNN hybrids, and 3D CNNs, to evaluate their effectiveness in identifying deepfakes. Our research highlighted the importance of integrating both spatial and temporal data to enhance detection accuracy, with Two-Stream models demonstrating superior performance.
+
+We used the Kaggle Deepfake Detection Challenge dataset, which includes labeled videos classified as "REAL" or "FAKE." The dataset was preprocessed by extracting frames and computing optical flow to capture temporal features. Our experiments showed that models leveraging both spatial and temporal information performed better in detecting deepfakes, particularly the Two-Stream Whole-Video model.
